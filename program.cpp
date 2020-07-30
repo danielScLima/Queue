@@ -6,7 +6,7 @@
 
 TEST_CASE( "Testing the insert call in the queue", "[single-file]" )
 {
-	Queue q;
+	QueueDataStructure q;
 
 	REQUIRE( q.top() == nullptr );
 	q.insert("home");
@@ -23,7 +23,7 @@ TEST_CASE( "Testing the insert and remove calls in the queue", "[single-file]" )
 {
     SECTION( "Inserting" )
 	{
-		Queue q;
+		QueueDataStructure q;
 		q.insert("home");
         q.insert("cat");
 		NodeOfQueue* node = q.top();
@@ -44,7 +44,7 @@ SCENARIO( "Teste the insert in the queue", "[single-file]" )
 {
     GIVEN( "A queue with 3 elements" )
 	{
-        Queue q;
+        QueueDataStructure q;
 		q.insert("home");
 		q.insert("cat");
 		q.insert("roof");
@@ -73,7 +73,7 @@ SCENARIO( "Teste the insert and delete in the queue", "[single-file]" )
 {
     GIVEN( "A queue " )
 	{
-        Queue q;
+        QueueDataStructure q;
 
         WHEN( "5 nodes are inserted" )
 		{
