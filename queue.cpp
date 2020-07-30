@@ -1,11 +1,11 @@
 #include "queue.h"
 
-Queue::Queue()
+QueueDataStructure::QueueDataStructure()
 {
 
 }
 
-Queue::~Queue()
+QueueDataStructure::~QueueDataStructure()
 {
     NodeOfQueue* initialHead = head;
     if (initialHead != nullptr)
@@ -21,7 +21,7 @@ Queue::~Queue()
     }
 }
 
-NodeOfQueue * Queue::insert(const std::string& data)
+NodeOfQueue * QueueDataStructure::insert(const std::string& data)
 {
     struct NodeOfQueue* tmp = new NodeOfQueue(data);
 
@@ -38,12 +38,12 @@ NodeOfQueue * Queue::insert(const std::string& data)
     return tmp;
 }
 
-NodeOfQueue* Queue::top()
+NodeOfQueue* QueueDataStructure::top()
 {
     return head;
 }
 
-NodeOfQueue *Queue::remove()
+NodeOfQueue *QueueDataStructure::remove()
 {
     if (head == nullptr)
         return nullptr;
@@ -64,7 +64,7 @@ NodeOfQueue *Queue::remove()
     }
 }
 
-std::vector<std::string> Queue::getElementsAsVector()
+std::vector<std::string> QueueDataStructure::getElementsAsVector()
 {
     std::vector<std::string> vec;
     NodeOfQueue* tmp = head;

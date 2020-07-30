@@ -39,16 +39,16 @@ struct NodeOfQueue
  * @brief 
  * 
  */
-class Queue
+class QueueDataStructure
 {
 public:
     /**
-     * @brief Construct a new Queue object
+     * @brief Construct a new QueueDataStructure object
      * 
      */
-    Queue();
+    QueueDataStructure();
 
-    ~Queue();
+    ~QueueDataStructure();
 
     /**
      * @brief Inserts a string
