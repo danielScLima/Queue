@@ -1,5 +1,7 @@
 Queue
 ====================
+Building with AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/kabn8dnwy8ccsad0?svg=true)](https://ci.appveyor.com/project/DanielSLima/queue)
+
 Building with Travis: [![Build Status](https://www.travis-ci.com/danielScLima/Queue.svg?branch=master)](https://www.travis-ci.com/danielScLima/Queue)
 
 This repository has a project with the implementation of a Queue.
