@@ -1,5 +1,6 @@
 Queue
 ====================
+Building with Travis: [![Build Status](https://www.travis-ci.com/danielScLima/Queue.svg?branch=master)](https://www.travis-ci.com/danielScLima/Queue)
 
 This repository has a project with the implementation of a Queue.
 
